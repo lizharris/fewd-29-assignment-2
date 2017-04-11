@@ -50,8 +50,161 @@ body {
      font-size: 12px;
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
+      background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
       background-size: cover;
+     font-family: 'Open Sans', sans-serif;
+
+}
+
+header h1 {
+      color: white;
+      font-size: 24px;
+     font-family: 'Open Sans', sans-serif;
+      padding: 30px 80px;
+      font-weight: 800;
+      letter-spacing: 1px;
+      
+  
+}
+
+header h2 {
+  color: white;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  text-align: center;
+  padding: 45px 10px 60px 10px;
+  letter-spacing: 1px;
+}
+
+button {
+
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 65px;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+  border: none;
+  font-family: 'Open Sans', sans-serif;
+
+  /*Styles that apply to both buttons  */
+}
+
+header {
+}
+
+ 
+header button {
+  background-color: #f9e42e;
+  background-size:100%;
+  font-size: 14px;
+  font-weight: 800;
+
+  
+  /*Styles for the top button -- Extra bold, 14px. 5px border radius
+"Benefits" - Semibold, 20px  yellow: #f9e42e*/
+}
+
+button a {
+  color: #033048;
+  text-decoration: none;
+}
+
+.sign-up button {
+  background-color:#033048; 
+  font-size: 12px;
+  font-weight: 800;
+  color: white;
+  /*extra bold, 12px, 5px border radius dark blue: #033048 */
+
+}
+
+.benefits {
+  background: white;
+  margin-top: 100%;
+}
+
+.benefits h2 {
+  font-size: 20px;
+  padding: 40px 60px 20px 80px;
+  font-weight: 600;
+  color: #121212;
+}
+
+.benefits p {
+  font-size: 13px;
+  padding: 1px 10px 15px 80px;
+  line-height: 20px;
+  font-weight: 100;
+}
+
+.benefits ul {
+  font-size: 13px;
+  padding: 1px 10px 60px 110px;
+  line-height: 20px;
+  font-weight: 100;
+  list-style-type: circle;
+  list-style-position:inside;
+
+}
+
+#testimonials {
+   background: url(../images/testimonial_bg.jpg);
+   text-align: center;
+}
+
+blockquote {
+  font-size: 18px;
+  color: white;
+  font-weight: 300;
+  font-style: italic;
+  padding-top: 40px;
+}
+
+.attribute p {
+  font-size: 18px;
+  color: white;
+  font-weight: 600;
+  padding: 10px 0px 60px 0px;
+}
+
+.sign-up {
+  background-color: #f9e42e;
+  padding: 15px;
+}
+
+footer {
+  background-color: #121212
+
+
+}
+
+footer h1 {
+  color: #f9e42e;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-weight: 800;
+  letter-spacing: 1px;
+  padding-top: 30px;
+  padding-bottom:20px;
+}
+
+footer .footer-logos {
+  position: auto;
+  text-align: center;
+  margin: 10px;
+}
+img {
+  margin: 0px 10px;
+  height: 22px;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  padding: 30px 0px 50px 0px;
 }
 
 
@@ -64,8 +217,9 @@ body {
   width: 100%;
   margin: auto;
   height: 500px;
-
 }
+
+
 
 header {
 
@@ -78,6 +232,11 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+
+
+
 
 
 
